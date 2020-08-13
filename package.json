@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-node-prueba-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "babel": "babel --presets es2020 app.js -o build/app.bundle.js",
+    "sass" : "sass --watch sass/main.scss build/css/main.css",
+    "start": "http-server -p 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beatriz Quiroga",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "mime-types": "^2.1.27",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2020": "^1.0.2",
+    "http-server": "^0.12.3"
+  }
+}
